@@ -19,9 +19,6 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin('app.css')
-        new HtmlWebpackPlugin({
-            favicon: "./src/img/lastfmIco.png"
-        })
     ],
     module: {
         loaders: [{

@@ -1,5 +1,5 @@
 body {
-    background-color: #e5e5e5;
+    background-color: #f9f9f9;
 }
 
 h2 {
@@ -35,4 +35,8 @@ h2 {
     padding-bottom: 20px;
     padding-top: 10px;
     background-color: white;
+}
+
+.table>tbody>tr>td {
+    border: none;
 }
