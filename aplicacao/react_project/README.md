@@ -1,6 +1,6 @@
 A aplicação Web foi feita com a biblioteca [ReactJS](https://reactjs.org/) com a finalidade de buscar dados da plataforma [last.fm](https://www.last.fm/api/) em uma página amigável.
 
-Foram ultílizado várias bibliotecas, como fontwasome, bootstrap, react-router.
+Foram ultílizadas várias bibliotecas, como fontwasome, bootstrap, react-router.
 
 ## Para inicializar o projeto em "localhost"
 
