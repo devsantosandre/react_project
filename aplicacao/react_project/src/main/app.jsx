@@ -6,7 +6,7 @@ import Menu from '../template/menu'
 import Routes from './routes'
 
 export default props => (
-    <div className='container-fluid'>
+    <div>
         <Menu />
         <Routes />
     </div>

@@ -2,10 +2,10 @@ import React from 'react';
 
 export default props => (
     <nav className='navbar navbar-inverse bg-inverse'>
-        <div className='container-fluid'>
+        
             <div className="navbar-header">
                 <a href="#" className="navbar-brand">
-                    <i className='fa fa-calendar-check-o'></i>Meu App
+                <i className="fa fa-lastfm-square p-3" style={{paddingRight: "0.6em"}}></i>Meu App
                 </a>
             </div>
 
@@ -15,6 +15,6 @@ export default props => (
                     <li><a href="#/about">Sobre</a></li>
                 </ul>
             </div>
-        </div>
+        
     </nav>
 )
