@@ -1,0 +1,38 @@
+body {
+    background-color: #e5e5e5;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+.capaDisco {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.artistLabel {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: smaller;
+}
+
+.albumLabel {
+    position: absolute;
+    bottom: 25px;
+    left: 16px;
+    font-weight: bolder;
+    color: white;
+}
+
+.cardApp {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 75px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: white;
+}

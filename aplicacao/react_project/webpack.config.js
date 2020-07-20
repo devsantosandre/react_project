@@ -17,8 +17,11 @@ module.exports = {
             modules: __dirname + '/node_modules'
         }
     },
-    plugins: [ 
+    plugins: [
         new ExtractTextPlugin('app.css')
+        new HtmlWebpackPlugin({
+            favicon: "./src/img/lastfmIco.png"
+        })
     ],
     module: {
         loaders: [{
