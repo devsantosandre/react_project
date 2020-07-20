@@ -4,7 +4,7 @@ Foram ultílizadas várias bibliotecas, como fontwasome, bootstrap, react-router
 
 ## Para inicializar o projeto em "localhost"
 
-Ao clonar o projeto do repositório, abra a pasta qie contém o arquivo package.json e digite o seguinte comando:
+Ao clonar o projeto do repositório, abra a pasta que contém o arquivo package.json e digite o seguinte comando:
 
 ### `npm i`
 
