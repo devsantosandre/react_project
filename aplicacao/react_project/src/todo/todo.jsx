@@ -19,11 +19,11 @@ export default class Todo extends Component {
     }
 
     refresh(description = '') {
-        const search = description
+        const search = description ? description : 'bon jovi'
         axios.get(`${URL}?method=artist.getsimilar&api_key=53701585b00198db3a80dcf69bc4ef8c&artist=${search}&format=json&limit=10`)
             .then(resp => this.setState({ ...this.state, description: '', listArtist: resp.data.similarartists.artist }))
 
-        axios.get(`${URL}?method=album.search&album=${search}&api_key=53701585b00198db3a80dcf69bc4ef8c&format=json&limit=8`)
+        axios.get(`${URL}?method=album.search&album=${search}&api_key=53701585b00198db3a80dcf69bc4ef8c&format=json&limit=15`)
             .then(resp => this.setState({ ...this.state, description: '', listAlbum: resp.data.results.albummatches.album }))
     }
     

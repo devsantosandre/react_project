@@ -15,13 +15,13 @@ export default props => {
         <div role='form' className='todoForm'>
             <Grid cols='12 9 10'>
                 <input id='description' className='form-control'
-                    placeholder='Adicione uma tarefa'
+                    placeholder='Artista ou Album'
                     onChange={props.handleChange}
                     onKeyUp={keyHandler}
                     value={props.description}></input>
             </Grid>
             <Grid cols='12 3 2'>
-                <IconButton style='info' icon='search'
+                <IconButton style='dark btn-danger btn-block' icon='search'
                     onClick={props.handleSearch}></IconButton>
             </Grid>
         </div>
